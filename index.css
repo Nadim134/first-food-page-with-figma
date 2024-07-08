@@ -1,0 +1,191 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin:0;
+    padding:0
+}
+
+
+#wrapper{
+    width:1920px;
+    height: 919px;
+    background-image: linear-gradient(0deg,
+     rgb(16, 16, 16) -19.5%,
+     rgba(16, 16, 16, 0) 100%)
+     ,url("assets/hero-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    
+}
+#wrapper .nadim{
+    width:1023px;
+    height:393px;
+    
+    
+
+}
+.nadim .title{
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;   
+    margin-bottom: 16px; 
+}
+.nadim .second_title{
+    color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 64px;
+font-weight: 700;
+line-height: 80px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 24px;
+}
+.nadim .paragraph{
+    color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 18px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 32px;
+}
+#button{
+    text-align: center;
+}
+.nadim #btn1{
+    padding:15px 20px 15px 20px;
+    border-radius: 8px;
+    background: rgb(82, 195, 3);
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: center;
+    
+}
+#card-box{
+    width:1320px;
+    height:746px;
+    margin: 167px auto;
+   
+    
+
+}
+.containar .title{
+
+}
+.title .subtitle{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 24px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.6;
+width:189px;
+height: 29px;
+margin: 0 auto;
+}
+.title .title2{
+    width: 691px;
+    height:128px;
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 48px;
+font-weight: 700;
+line-height: 64px;
+letter-spacing: 0%;
+text-align: center;
+margin: 0 auto;
+margin-bottom: 47px;
+}
+/* this is card section */
+.card1{
+    width:424px;
+    height: 525px;
+    
+}
+.card1 .img{
+    width:424px;
+    height:283px;
+    border-radius: 16px;
+    margin-bottom:32px
+}
+.card1 h2{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 24px;
+font-weight: 600;
+line-height: 28px;
+letter-spacing: 0%;
+background-color: rgba(82, 195, 3, 0.15);;
+width: 150px;
+height:29px;
+padding:14px 32px 14px 32px;
+margin:0 auto;
+}
+.card1 h1{
+    margin:24px auto;
+    width:290px;
+    height:49px;
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 40px;
+font-weight: 600;
+line-height: 47px;
+letter-spacing: 0%;
+text-align: center;
+   
+}
+.card1 p{
+    margin:24px auto;
+    width:424px;
+    height:56px;
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 18px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0%;
+opacity: 0.7;
+text-align: center;
+}
+.wrapper {
+    width:1320px;
+    height:525px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-bottom:64px
+}
+#btn3 .button{
+    width:220px;
+    height: 66px;
+    padding:21px 32px 21px 32px;
+    border-radius: 8px;
+    background: rgb(82, 195, 3);
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+#btn3{
+    display: flex;
+    justify-content: center;
+}
